@@ -1,0 +1,31 @@
+{
+  "name": "2.3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "testTCPServer": "echo \"Error: no test specified\" && exit 1",
+    "buildTCPServer": "rimraf ./dist && tsc",
+    "startTCPServer": "node dist/tcp-server.js",
+    "testTCPClient": "echo \"Error: no test specified\" && exit 1",
+    "buildTCPClient": "rimraf ./dist && tsc",
+    "startTCPClient": "node dist/tcp-client.js",
+    "testHTTPServer": "echo \"Error: no test specified\" && exit 1",
+    "buildHTTPServer": "rimraf ./dist && tsc",
+    "startHTTPServer": "node dist/http-server.js",
+    "testHTTPClient": "echo \"Error: no test specified\" && exit 1",
+    "buildHTTPClient": "rimraf ./dist && tsc",
+    "startHTTPClient": "node dist/http-client.js",
+    "testUDPServer": "echo \"Error: no test specified\" && exit 1",
+    "buildUDPServer": "rimraf ./dist && tsc",
+    "startUDPServer": "node dist/udp-server.js",
+    "testUDPClient": "echo \"Error: no test specified\" && exit 1",
+    "buildUDPClient": "rimraf ./dist && tsc",
+    "startUDPClient": "node dist/udp-client.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.10"
+  }
+}
